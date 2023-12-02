@@ -17,8 +17,8 @@ To write a program to find the GCD of two numbers using function.
 ```
 /*
 Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
+Developed by: Mugil
+RegisterNumber: 23008346 
 def gcd():
     n1,n2=int(input()),int(input())
     if(n1>n2):
