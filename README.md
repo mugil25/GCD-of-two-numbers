@@ -19,12 +19,20 @@ To write a program to find the GCD of two numbers using function.
 Program to find the gcd of two number using function.
 Developed by: 
 RegisterNumber:  
+def gcd():
+    n1,n2=int(input()),int(input())
+    if(n1>n2):
+        smaller=n2
+    else:
+        smaller=n1
+    for i in range(1,smaller+1):
+        if(n1%i==0 and n2%i==0):
+            hcf=i
+    print("GCD of two numbers is:",hcf)
 */
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
-
-
+![image](https://github.com/mugil25/GCD-of-two-numbers/assets/148515771/b800ed2c-8047-44ad-b1cc-7e4dc6c6f7e7)
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.
